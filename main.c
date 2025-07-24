@@ -149,7 +149,7 @@ static void activate(GtkApplication *app, gpointer user_data) {
     GtkWidget *header_bar = gtk_header_bar_new();
     gtk_header_bar_set_title_widget(GTK_HEADER_BAR(header_bar), gtk_label_new("Toner"));
     gtk_header_bar_set_show_title_buttons(GTK_HEADER_BAR(header_bar), TRUE);
-    gtk_header_bar_set_decoration_layout(GTK_HEADER_BAR(header_bar), "close:");
+    gtk_header_bar_set_decoration_layout(GTK_HEADER_BAR(header_bar), ":close");
     gtk_window_set_titlebar(GTK_WINDOW(win), header_bar);
 
     GtkWidget *clamp_widget = adw_clamp_new();
