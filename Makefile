@@ -9,6 +9,7 @@ LIBS = `pkg-config --libs   gtk4 libadwaita-1 gio-2.0` -lpulse-simple -lpulse -p
 
 all:
 	$(CC) -m$(BITS) -O$(OPT) $(SRC) -o $(BIN) $(CFLAGS) $(LIBS)
+	sv -s $(BIN)
 	
 clean:
 	rm -f $(BIN)
