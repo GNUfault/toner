@@ -1,7 +1,7 @@
 # Toner
 GTK4 and Libadwaita tone generator
 
-<img width="602" height="440" alt="image" src="https://github.com/user-attachments/assets/9943f300-478f-4eae-bb80-259ddc667751" />
+<img width="602" height="440" alt="image" src="https://github.com/user-attachments/assets/d6ca4b53-7af8-4a62-9fd5-08f45fa3d815" />
 
 ## Installation
 ### Dependencies
