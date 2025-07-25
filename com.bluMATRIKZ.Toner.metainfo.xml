@@ -2,7 +2,7 @@
 <component type="desktop-application">
   <id>com.bluMATRIKZ.Toner</id>
   <metadata_license>FSFAP</metadata_license>
-  <project_license>GPL-3.0-or-later</project_license>
+  <project_license>GPL-3.0+</project_license>
   <name>Toner</name>
   <summary>GTK4 and Libadwaita tone generator</summary>
 
