@@ -20,7 +20,7 @@ modules:
         branch: main
 
     build-commands:
-      - make
+      - make elf
       - install -Dm755 toner /app/bin/toner
       - install -Dm644 com.bluMATRIKZ.Toner.desktop /app/share/applications/com.bluMATRIKZ.Toner.desktop
       - install -Dm644 com.bluMATRIKZ.Toner.png /app/share/icons/hicolor/scalable/apps/icon.png
