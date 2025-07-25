@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.bluMATRIKZ.Toner</id>
+  <metadata_license>FSFAP</metadata_license>
+  <project_license>GPL-3.0-or-later</project_license>
+  <name>Toner</name>
+  <summary>GTK4 and Libadwaita tone generator</summary>
+
+  <description>
+    <p>
+      Toner is a minimalist and intuitive tone generator application built with GTK4 and Libadwaita.
+      It can generate various waveforms (sine, square, triangle, sawtooth).
+    </p>
+    <p>
+      Key features include:
+    </p>
+    <ul>
+      <li>Can generate any frequency.</li>
+      <li>Four waveforms: Sine, Square, Triangle, and Sawtooth.</li>
+      <li>Real-time audio output using PulseAudio.</li>
+      <li>A clean, modern, and responsive user interface following GNOME HIG.</li>
+    </ul>
+  </description>
+  
+  <launchable type="desktop-id">com.bluMATRIKZ.Toner.desktop</launchable>
+
+  <screenshots>
+    <screenshot type="default">
+      <image type="source">http://23.118.181.23/toner/pic1.png</image>
+    <caption>Idle</caption>
+    </screenshot>
+    <screenshot>
+      <image type="source">http://23.118.181.23/toner/pic2.png</image>
+    <caption>Making a tone</caption>
+    </screenshot>
+    <screenshot>
+      <image type="source">http://23.118.181.23/toner/pic3.png</image>
+    <caption>Waveform menu exposed</caption>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://github.com/bluMATRIKZ/toner</url>
+  <url type="bugtracker">https://github.com/bluMATRIKZ/toner/issues</url>
+
+  <icon type="icon" width="100" height="100">http://23.118.181.23/toner/icon.png</icon>
+  
+  <keywords>
+    <keyword>tone</keyword>
+    <keyword>generator</keyword>
+    <keyword>audio</keyword>
+    <keyword>sound</keyword>
+    <keyword>waveform</keyword>
+    <keyword>frequency</keyword>
+  </keywords>
+
+  <content_rating type="oars-1.0">
+    <content_attribute id="violence-cartoon">none</content_attribute>
+    <content_attribute id="violence-fantasy">none</content_attribute>
+    <content_attribute id="violence-realistic">none</content_attribute>
+    <content_attribute id="violence-bloodshed">none</content_attribute>
+    <content_attribute id="violence-sexual">none</content_attribute>
+    <content_attribute id="violence-gore">none</content_attribute>
+    <content_attribute id="sex-nudity">none</content_attribute>
+    <content_attribute id="sex-themes">none</content_attribute>
+    <content_attribute id="sex-contact">none</content_attribute>
+    <content_attribute id="sex-exploitation">none</content_attribute>
+    <content_attribute id="gambling">none</content_attribute>
+    <content_attribute id="drugs-alcohol">none</content_attribute>
+    <content_attribute id="social-chat">none</content_attribute>
+    <content_attribute id="social-info">none</content_attribute>
+    <content_attribute id="social-audio">none</content_attribute>
+    <content_attribute id="social-location">none</content_attribute>
+    <content_attribute id="social-contacts">none</content_attribute>
+    <content_attribute id="money-purchasing">none</content_attribute>
+    <content_attribute id="money-advertising">none</content_attribute>
+    <content_attribute id="money-lootboxes">none</content_attribute>
+  </content_rating>
+
+  <provides>
+    <binary>toner</binary>
+  </provides>
+
+  <recommends>
+    <control>pointing</control>
+    <control>keyboard</control>
+    <control>audio</control>
+  </recommends>
+
+  <categories>
+    <category>Audio</category>
+    <category>Utility</category>
+  </categories>
+
+  <releases>
+    <release version="1.1" date="2025-07-24">
+      <description>
+        <p>Flatpak support added</p>
+     </description>
+    </release>
+    <release version="1.0" date="2025-07-23">
+      <description>
+        <p>1st stable release</p>
+     </description>
+    </release>
+   </releases>
+  <developer>Connor Thomson</developer>
+</component>

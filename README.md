@@ -1,9 +1,29 @@
 # Toner
 GTK4 and Libadwaita tone generator
 
-<img width="602" height="440" alt="image" src="https://github.com/user-attachments/assets/d6ca4b53-7af8-4a62-9fd5-08f45fa3d815" />
+<img width="602" height="440" alt="image" src="http://23.118.181.23/toner/pic1.png" />
 
-## Installation
+## Flatpak compilation
+### Dependencies
+```
+libgtk-4-dev libadwaita-1-dev libpulse-dev gcc make git build-essential flatpak-builder
+```
+### Cloning and Compiling
+```
+git clone https://github.com/bluMATRIKZ/toner.git && \
+cd toner && \
+make
+```
+### Installing
+```
+flatpak install --user com.bluMATRIKZ.Toner.flatpak
+```
+### Running:
+```
+flatpak run com.bluMATRIKZ.Toner
+```
+
+## ELF Compilation
 ### Dependencies
 ```
 libgtk-4-dev libadwaita-1-dev libpulse-dev gcc make git build-essential
@@ -12,7 +32,7 @@ libgtk-4-dev libadwaita-1-dev libpulse-dev gcc make git build-essential
 ```
 git clone https://github.com/bluMATRIKZ/toner.git && \
 cd toner && \
-make
+make elf
 ```
 ## Running
 ```

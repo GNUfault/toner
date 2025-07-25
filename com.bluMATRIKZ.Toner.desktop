@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Toner
+Comment=GTK4 and Libadwaita tone generator
+Exec=flatpak run com.bluMATRIKZ.Toner
+Icon=/app/share/icons/hicolor/scalable/apps/icon.png
+Categories=AudioVideo;Utility;
+Terminal=false
+Keywords=tone;generator;audio;sound;waveform;frequency;
