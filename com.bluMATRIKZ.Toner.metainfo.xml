@@ -59,12 +59,23 @@
     <binary>toner</binary>
   </provides>
 
-  <recommends>
+  <supports>
     <control>pointing</control>
     <control>keyboard</control>
+    <control>touch</control>
     <control>audio</control>
+    <control>tablet</control>
+  </supports>
+
+  <recommends>
+    <display_length compare="lt">800</display_length>
+    <display_length compare="gt">600</display_length>
   </recommends>
 
+  <requires>
+    <internet>offline-only</internet>
+  </requires>
+  
   <categories>
     <category>Audio</category>
     <category>Utility</category>
