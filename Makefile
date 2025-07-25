@@ -10,7 +10,9 @@ FPAKBLD = build
 FPAK = $(FPAKNM).flatpak
 
 # Needs: all flatpak-builder
-all:
+all: flatpak
+
+flatpak:
 	flatpak-builder --force-clean --install-deps-from=flathub --repo=repo build $(FPAKNM).yaml
 	flatpak build-bundle repo $(FPAK) $(FPAKNM)
 	rm -rf $(FPAKBLD)
