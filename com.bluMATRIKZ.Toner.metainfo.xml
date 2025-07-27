@@ -82,6 +82,11 @@
   </categories>
 
   <releases>
+    <release version="1.1.2" date="2025-07-26">
+      <description>
+        <p>Flatpak support updated</p>
+     </description>
+    </release>
     <release version="1.1.1" date="2025-07-25">
       <description>
         <p>Flatpak support updated</p>
