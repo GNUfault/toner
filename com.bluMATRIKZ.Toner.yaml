@@ -17,7 +17,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/bluMATRIKZ/toner.git
-        tag: v1.1.1
+        branch: main
 
     build-commands:
       - make elf
