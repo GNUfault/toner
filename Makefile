@@ -9,18 +9,8 @@ FPAKNM = com.bluMATRIKZ.Toner
 FPAKBLD = build
 FPAK = $(FPAKNM).flatpak
 
-# Needs: all flatpak-builder
-all: flatpak
-
-flatpak: elf
-	flatpak-builder --force-clean --install-deps-from=flathub --repo=repo build $(FPAKNM).yaml
-	flatpak build-bundle repo $(FPAK) $(FPAKNM)
-	rm -rf $(FPAKBLD)
-
-# Needs: libgtk-4-dev libadwaita-1-dev libpulse-dev gcc make git build-essential flatpak-builder
-elf:
+all:
 	$(CC) -m$(BITS) -O$(OPT) $(SRC) -o $(BIN) $(CFLAGS) $(LIBS)
-	strip -s $(BIN)
 
 clean:
 	rm -f $(BIN) $(FPAKBUILD) $(FPAK)
