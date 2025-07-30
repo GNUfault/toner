@@ -6,7 +6,7 @@ GTK4 and Libadwaita tone generator
 ## Compilation
 ### Dependencies
 ```
-libgtk-4-dev libadwaita-1-dev libpulse-dev gcc make git build-essential flatpak-builder
+libgtk-4-dev libadwaita-1-dev libpulse-dev gcc make git build-essential
 ```
 ### Cloning and Compiling
 ```
@@ -14,15 +14,7 @@ git clone https://github.com/bluMATRIKZ/toner.git && \
 cd toner && \
 make
 ```
-### Installing Flatpak
-```
-flatpak install --user com.bluMATRIKZ.Toner.flatpak
-```
-### Running Flatpak
-```
-flatpak run com.bluMATRIKZ.Toner
-```
-## Running ELF
+### Running
 ```
 ./toner
 ```
