@@ -5,9 +5,6 @@ SRC = main.c
 BIN = toner
 CFLAGS = `pkg-config --cflags gtk4 libadwaita-1 gio-2.0`
 LIBS = `pkg-config --libs   gtk4 libadwaita-1 gio-2.0` -lpulse-simple -lpulse -pthread -lm
-FPAKNM = com.bluMATRIKZ.Toner
-FPAKBLD = build
-FPAK = $(FPAKNM).flatpak
 
 all:
 	$(CC) -m$(BITS) -O$(OPT) $(SRC) -o $(BIN) $(CFLAGS) $(LIBS)
