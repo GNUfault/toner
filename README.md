@@ -10,7 +10,7 @@ libgtk-4-dev libadwaita-1-dev libpulse-dev gcc make git build-essential
 ```
 ### Cloning and Compiling
 ```
-git clone https://github.com/bluMATRIKZ/toner.git && \
+git clone https://github.com/GNUfault/toner.git && \
 cd toner && \
 make
 ```
